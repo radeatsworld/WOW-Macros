@@ -1,0 +1,12 @@
+-- INVITE TARGET TO PARTY
+/invite
+
+/run if UnitIsPlayer("target") then InviteUnit(UnitName("target")) end
+
+
+-- BUFFS REQUEST
+/s May I have some Buffs please?
+
+
+-- REQUEST INVITE TO PARTY
+/s May I please join your party?
