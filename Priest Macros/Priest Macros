@@ -1,0 +1,10 @@
+-- OPENER
+#showtooltip
+/castsequence reset=60  Power Word: Shield,  Shadow Word: Pain, Void Plague, Penance, Shoot
+
+
+--
+
+
+--
+
