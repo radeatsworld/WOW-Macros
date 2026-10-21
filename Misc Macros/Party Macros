@@ -4,6 +4,10 @@
 /run if UnitIsPlayer("target") then InviteUnit(UnitName("target")) end
 
 
+-- ROLL
+/roll
+
+
 -- BUFFS REQUEST
 /s May I have some Buffs please?
 
