@@ -8,7 +8,9 @@
 /run ChatFrame_OpenChat("/s /hermes ")
 
 
--- 
+-- ASK HORDE TO STOP
+#showtooltip
+/run ChatFrame_OpenChat("/s /hermes stop killing me please")
 
 
 --
