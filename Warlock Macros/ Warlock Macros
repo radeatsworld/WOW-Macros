@@ -1,5 +1,18 @@
+-- DMG Intro
+#showtooltip
+/ startattack
+/petattack
+/ cast Shadow Bolt(Rank 2)
+/cast Shoot
+
+
 -- VOIDWALKER CONSUME SHADOWS
 #showtooltip
 /cast [pet:voidwalker] Consume Shadows
 
+-- Demon Fire Shield
+/tar player
+/cast Fire Shield
 
+
+-- 
