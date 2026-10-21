@@ -1,0 +1,9 @@
+-- EQUIP WEAPONS ** CHANGE NAMES FOR MAINHAND (16) AND OFFHAND (17)
+/equipslot 16 Communal Guardian
+/equipslot 17 Communal Shield
+
+
+-- SWAP WEAPONS ** CHANGE WEAPON NAMES (1ST- MAINHAND, 2ND- OFFHAND, 3RD- TWOHANDER)
+/equipslot [noworn:shield] 16 Communal Guardian
+/eq [noworn:shield] Communal Shield
+/eq [noworn:two-hand] Communal Warmaul
