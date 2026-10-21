@@ -168,4 +168,7 @@
 /cast [stance:3] Whirlwind
 
 
--- 
+-- TOGGLE ATTACK
+#showtooltip
+/startattack
+/stopattack
