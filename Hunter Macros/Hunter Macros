@@ -1,8 +1,9 @@
 -- HUNTER INTRO ATTACK
-#showtooltip
+/run local p = UnitName("pet"); SendChatMessage(p .. ", I choose you! Use Growl Attack!", "YELL")
+#showtooltip petattack
+/cast Hunter's Mark
 /petattack
-/cast Charge
 /cast Growl
 /cast !Auto Shot
-/cast Hunter's Mark
 /cast Concussive Shot
+/CAST Serpent Sting
