@@ -1,0 +1,16 @@
+-- Open Chat
+#showtooltip
+/run ChatFrame_OpenChat("")
+
+
+-- Hermes Chat
+#showtooltip
+/run ChatFrame_OpenChat("/s /hermes ")
+
+
+-- 
+
+
+--
+
+
