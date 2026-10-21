@@ -7,3 +7,9 @@
 /cast !Auto Shot
 /cast Concussive Shot
 /CAST Serpent Sting
+
+
+-- SHOOTING
+#showtooltip
+/startattack
+/cast [worn:thrown] Throw; [worn:bow] Shoot; [worn:gun] Shoot; [worn:crossbow] Shoot
