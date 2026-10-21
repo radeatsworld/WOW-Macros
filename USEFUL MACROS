@@ -1,9 +1,15 @@
--- BUFFS REQUEST
-/s May I have some Buffs please?
+-- TOGGLE GAMEPAD MODE
+/console GamePadEnable 0
 
 
 -- CLICK YES ON POP-UP
 /click StaticPopup1Button1
+
+
+-- TOGGLE CLICK TO MOVE
+/run local k,v = "autointeract" v = C_CVar.GetCVar(k) C_CVar.SetCVar(k, 1 - v) print("Auto Interact " .. (v == "1" and "Disabled" or "Enabled"))
+/script SetCVar("nameplateShowFriends", 0)
+/script SetCVar("nameplateShowEnemies", 1)
 
 
 -- EQUIP WEAPONS ** CHANGE NAMES FOR MAINHAND (16) AND OFFHAND (17)
@@ -17,14 +23,10 @@
 /eq [noworn:two-hand] Communal Warmaul
 
 
--- TOGGLE MACRO MENU
-/macro
-
-
--- TOGGLE CLICK-TO-MOVE
-/run local k,v = "autointeract" v = C_CVar.GetCVar(k) C_CVar.SetCVar(k, 1 - v) print("Auto Interact " .. (v == "1" and "Disabled" or "Enabled"))
-/script SetCVar("nameplateShowFriends", 0)
-/script SetCVar("nameplateShowEnemies", 1)
+-- SKIP ENCHANT WARNING
+/click CraftCreateButton
+/use 0 1
+/click StaticPopup1Button1
 
 
 -- TOGGLE SHOW LUA ERRORS
@@ -51,10 +53,26 @@
 /roll
 
 
+-- TOGGLE MACRO MENU
+/macro
+
+
+-- BUFFS REQUEST
+/s May I have some Buffs please?
+
+
+-- REQUEST INVITE TO PARTY
+/s May I please join your party?
+
+
 -- Falcorn
 /s I've braved the Fargodeep mine, defeated the Bloodfish at Jarod's Landing..
 
 /s In the outside world I'm a simple geologist. But in here...I am Falcorn, defender of the Alliance.
+
+
+-- OPEN KILLS TO LEVEL WINDOW
+/ktl window
 
 
 -- 
