@@ -1,0 +1,2 @@
+-- VENDOR SNIPER **REPLACE "ITEM NAME" WITH THE ITEM YOU WANT
+/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l and l:find("Pattern: Runecloth Bag") then BuyMerchantItem(i, 1) end end CloseMerchant()
