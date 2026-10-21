@@ -11,18 +11,6 @@
 /equipslot 17 Communal Shield
 
 
--- INVITE TARGET TO PARTY
-/invite
-
-
--- RELOAD UI
-/reload
-
-
--- ROLL
-/roll
-
-
 -- SWAP WEAPONS ** CHANGE WEAPON NAMES (1ST- MAINHAND, 2ND- OFFHAND, 3RD- TWOHANDER)
 /equipslot [noworn:shield] 16 Communal Guardian
 /eq [noworn:shield] Communal Shield
@@ -49,3 +37,24 @@
 
 -- VENDOR SNIPER **REPLACE "ITEM NAME" WITH THE ITEM YOU WANT
 /run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l and l:find("Pattern: Runecloth Bag") then BuyMerchantItem(i, 1) end end CloseMerchant()
+
+
+-- INVITE TARGET TO PARTY
+/invite
+
+
+-- RELOAD UI
+/reload
+
+
+-- ROLL
+/roll
+
+
+-- Falcorn
+/s I've braved the Fargodeep mine, defeated the Bloodfish at Jarod's Landing..
+
+/s In the outside world I'm a simple geologist. But in here...I am Falcorn, defender of the Alliance.
+
+
+-- 
